@@ -1,12 +1,11 @@
 import os
-import requests
-
-from django.shortcuts import render, redirect
-from django.contrib.auth import logout as auth_logout
-from dotenv import load_dotenv
 from json import JSONDecodeError
-from requests import exceptions
 
+import requests
+from django.contrib.auth import logout as auth_logout
+from django.shortcuts import redirect, render
+from dotenv import load_dotenv
+from requests import exceptions
 
 load_dotenv()
 VK_TOKEN = os.getenv('VK_TOKEN')
