@@ -30,7 +30,9 @@ pip install -r requirements.txt
 - SOCIAL_AUTH_VK_OAUTH2_KEY = 'ххххххххххх',
 - SOCIAL_AUTH_VK_OAUTH2_SECRET = 'ххххххххххх',
 - VK_TOKEN = 'ххххххххххх'
+
 Сгенерировать SECRET_KEY можно на сайте [Djecrety](https://djecrety.ir/)
+
 Остальные ключи можно получить на сайте https://vk.com/dev
 
 4) Выполните миграции:
