@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 Сгенерировать SECRET_KEY можно на сайте [Djecrety](https://djecrety.ir/)
 
-Остальные ключи можно получить на сайте https://vk.com/dev
+Остальные ключи можно получить на сайте [vk.com/dev](https://vk.com/dev)
 
 4) Выполните миграции:
 ```
